@@ -1,0 +1,15 @@
+{
+    "name": "me.akadeax.pda",
+    "version": "1.0.0",
+    "displayName": "PDAnimator",
+    "unity": "2020.1",
+    "description": "A Unity Animator for P(ixelArt) D(irectional) A(nimation).",
+    "keywords": [
+        "Animation",
+        "Animator"
+    ],
+    "author": {
+        "name": "Patrick Nellessen (Akadeax)",
+        "email": "patrickqwertz@gmail.com"
+    }
+}
