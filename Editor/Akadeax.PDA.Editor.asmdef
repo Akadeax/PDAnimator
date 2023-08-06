@@ -2,7 +2,8 @@
     "name": "Akadeax.PDA.Editor",
     "rootNamespace": "PDA",
     "references": [
-        "GUID:2c573e6b271651846a79655161004c5b"
+        "Unity.2D.Sprite.Editor",
+        "Akadeax.PDA.Runtime"
     ],
     "includePlatforms": [
         "Editor"
