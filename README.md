@@ -13,11 +13,11 @@ We've found that using the default Unity animator when working with a large amou
 
 To utilize this workflow, every animatable object should have a `PDAnimator` component:
 
-![Image of the Unity Component PDAnimator](./RepoImg/PDA_1.png)
+![Image of the Unity Component PDAnimator](./RepoIMG/PDA_1.png)
 
 Here, the template refers to a `PDAnimatorTemplate`, which is functionally similar to Unity's `AnimationController`. It holds information about the state machine and a list of all possible animation states this object can be in. Because it's a scriptable object, multiple objects in the world can share a reference to the same animation template.
 
-![Image of the PDAnimatorTemplate Scriptable Object](./RepoImg/PDA_2.png)
+![Image of the PDAnimatorTemplate Scriptable Object](./RepoIMG/PDA_2.png)
 
 ### Animation states
 Each animation state consists of a class defining the data for the state, and a class defining the behaviour of it.
@@ -70,7 +70,7 @@ This tool is a simple editor window. Using the built-in sprite slicer doesn't al
 
 Select any sprite sheets you want sliced in the file explorer (yes, this can be multiple), and run the slicer.
 
-![The spritesheet slicer in action](./RepoImg/SpriteSlicer.gif)
+![The spritesheet slicer in action](./RepoIMG/SpriteSlicer.gif)
 
 </details>
 
@@ -85,6 +85,6 @@ the "Simple" mode creates a basic, 1-directional animation, while "Four Directio
 
 Our team utilized specifically this tool to great effect, as it shortens the process of "Create 5 scriptable objects, assign hundreds of frames manually & individually, hunt for wrong frames due to human error" into a single button press.
 
-![The animation wizard in action](./RepoImg/AnimationWizard.gif)
+![The animation wizard in action](./RepoIMG/AnimationWizard.gif)
 
 </details>
