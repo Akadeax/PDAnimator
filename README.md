@@ -61,8 +61,6 @@ This covers all basic features of PDAnimator, but for a complete in-context exam
 
 </details>
 
-<br>
-
 <details>
 <summary><h2>Spritesheet Slicer</h2></summary>
 
@@ -73,8 +71,6 @@ Select any sprite sheets you want sliced in the file explorer (yes, this can be 
 ![The spritesheet slicer in action](./RepoIMG/SpriteSlicer.gif)
 
 </details>
-
-<br>
 
 <details>
 <summary><h2>Animation Wizard</h2></summary>
