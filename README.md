@@ -1,5 +1,5 @@
 # Pixel-Directional-Animator
-PDAnimator is a strange concoction of a rewritten Unity Animator that makes it simpler to use 2D-TopDown-Spritesheet animation (Think original Legend of Zelda), along with some tooling for convenience.
+PDAnimator is a concoction of a custom Unity Animator that makes it simpler to use 2D-topdown-spritesheet animation (Think original Legend of Zelda), along with some tooling for convenience.
 
 This project contains 3 separate units from a personal project:
 - A custom Animator that replaces Unity's default one (PDAnimator)
