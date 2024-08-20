@@ -79,7 +79,7 @@ Select any sprite sheets you want sliced in the file explorer (yes, this can be 
 
 The Animation wizard allows you to select a spritesheet and instantly convert it into a `PDAnimationClip`. No manual assigning of individiual sprites needed.
 
-the "Simple" mode creates a basic, 1-directional animation, while "Four Directional" generates animations for all 4 cardinal directions; it then creates a `PDAnimationClip4D` that contains these 4 animations, ready to be used by an Animator.
+the "Simple" mode creates a basic, 1-directional animation, while "Four Directional" generates animations for all 4 cardinal directions; the first row of sprites forms the up animation, the second row the right animation, etc. it then creates a `PDAnimationClip4D` that contains these 4 animations, ready to be used by an Animator.
 
 For us this shortened the process of "Create 5 scriptable objects, assign hundreds of frames manually & individually, hunt for wrong frames due to human error" into a single button press.
 
