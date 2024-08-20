@@ -64,9 +64,9 @@ This covers all basic features of PDAnimator, but for a complete in-context exam
 <details>
 <summary><h2>Spritesheet Slicer</h2></summary>
 
-This tool is a simple editor window. Using the built-in sprite slicer doesn't allow you to set parameters for the individual sprites (such as the pivot). This fixes that common issue.
+This tool is a simple editor window. Using Unity's built-in sprite slicer doesn't allow you to set parameters for the individual sprites (such as the pivot). This fixes that common issue.
 
-For us, this automated the workflow of "Slice this sprite sheet into hundreds of sprites, and set all of their pivots to (x,y) individually".
+For us, this automated the workflow of "Slice this sprite sheet into hundreds of sprites, and set all of their pivots to (x,y) individually". This tool can be incredibly useful even when not using PDAnimator.
 
 Select any sprite sheets you want sliced in the file explorer (yes, this can be multiple), and run the slicer.
 
