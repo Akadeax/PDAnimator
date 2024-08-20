@@ -66,6 +66,8 @@ This covers all basic features of PDAnimator, but for a complete in-context exam
 
 This tool is a simple editor window. Using the built-in sprite slicer doesn't allow you to set parameters for the individual sprites (such as the pivot). This fixes that common issue.
 
+For us, this automated the workflow of "Slice this sprite sheet into hundreds of sprites, and set all of their pivots to (x,y) individually".
+
 Select any sprite sheets you want sliced in the file explorer (yes, this can be multiple), and run the slicer.
 
 ![The spritesheet slicer in action](./RepoIMG/SpriteSlicer.gif)
@@ -79,7 +81,7 @@ The Animation wizard allows you to select a spritesheet and instantly convert it
 
 the "Simple" mode creates a basic, 1-directional animation, while "Four Directional" generates animations for all 4 cardinal directions; it then creates a `PDAnimationClip4D` that contains these 4 animations, ready to be used by an Animator.
 
-Our team utilized specifically this tool to great effect, as it shortens the process of "Create 5 scriptable objects, assign hundreds of frames manually & individually, hunt for wrong frames due to human error" into a single button press.
+For us this shortened the process of "Create 5 scriptable objects, assign hundreds of frames manually & individually, hunt for wrong frames due to human error" into a single button press.
 
 ![The animation wizard in action](./RepoIMG/AnimationWizard.gif)
 
